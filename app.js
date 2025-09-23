@@ -28,41 +28,7 @@ function ShowFriends() {
     });
 }
 
-// function ChooseSecretFriend() {
-//     if (friends.length < 2) {
-//         alert("Please add at least two friends to perform the draw.");
-//         return;
-//     }
 
-//     // Realizamos el sorteo
-//     let resultados = [];
-//     let amigosRestantes = [...friends];
-
-//     for (let i = 0; i < friends.length; i++) {
-//         let amigo = friends[i];
-//         let indiceSorteado = Math.floor(Math.random() * amigosRestantes.length);
-//         let amigoSorteado = amigosRestantes[indiceSorteado];
-
-//         // Nos aseguramos de que nadie se saque a sí mismo
-//         while (amigo === amigoSorteado) {
-//             indiceSorteado = Math.floor(Math.random() * amigosRestantes.length);
-//             amigoSorteado = amigosRestantes[indiceSorteado];
-//         }
-
-//         resultados.push(`${amigo} -> ${amigoSorteado}`);
-//         amigosRestantes.splice(indiceSorteado, 1);
-//     }
-
-//     // Mostramos los resultados
-//     let listaResultados = document.getElementById("resultado");
-//     listaResultados.innerHTML = ""; // Limpiamos resultados anteriores
-
-//     resultados.forEach(resultado => {
-//         let li = document.createElement("li");
-//         li.textContent = resultado;
-//         listaResultados.appendChild(li);
-//     });
-// }
 
 
 
